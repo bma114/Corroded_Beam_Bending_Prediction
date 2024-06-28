@@ -11,9 +11,15 @@ Each model is trained and tested using a Repeated k-fold cross-validation approa
 
 The new predictions are likewise generated for each trained model and stored over 100 folds. The final output is the mean value of the 100 trained models for each response variable. 
 
-# Application
-To run the application, open the run.py file in this repository. Insert the required feature information, following the supplied instructions at the top of the script, and run the file. 
-The mean prediction of the five mechanical properties should be printed after successfully running the script. Note that the models may take several minutes to loop through 100 training iterations.
+# Application Instructions
+Follow the instructions below to execute the application and generate new predictions:
+
+1. Download the zip file containing all files in the repository to your local drive.
+2. Extract or unzip the folder, keeping all files together without moving the relative path between them.
+3. Check that all Python dependencies required to run the script have been installed in your Python environment. See the list below for all the necessary packages.
+4. Using a Python environment of your choice (e.g., Jupyter Notebook, Visual Studio Code, Spyder, etc.), open the run.py file.
+5. Insert the required feature information, following the supplied instructions at the top of the script, and execute the file.
+6. The mean prediction of the five mechanical properties should be printed after successfully running the script. Note that the models may take several minutes to loop through 100 training iterations.
 
 # Related Work
 An accompanying database and study investigating the mechanical degradation of corroded reinforcing steel can be found at: https://github.com/bma114/corroded-steel-machine-learning 

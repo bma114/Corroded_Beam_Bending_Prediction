@@ -18,6 +18,8 @@ The mean prediction of the five mechanical properties should be printed after su
 # Related Work
 An accompanying database and study investigating the mechanical degradation of corroded reinforcing steel can be found at: https://github.com/bma114/corroded-steel-machine-learning 
 
+With a published journal article which can be accessed at: https://doi.org/10.1016/j.conbuildmat.2024.137023
+
 The complete open-source database is available at: https://zenodo.org/records/8035720
 
 # Dependencies
